@@ -1,0 +1,110 @@
+/* Add general styling for the website here */
+
+/* Set a background color and font */
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #000;
+  padding: 10px;
+}
+
+nav .nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.menu-toggle {
+  display: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.menu-toggle:hover {
+  text-decoration: underline;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+h1 {
+  color: #000;
+  margin-bottom: 20px;
+}
+
+/* Add specific Material Design styles here */
+/* For example, you can use Material Design cards for project sections */
+
+.project-section {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Add your own custom styles as needed */
+
+footer {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+}
