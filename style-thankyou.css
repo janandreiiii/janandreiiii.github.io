@@ -1,0 +1,44 @@
+/* Reset some default styles for better consistency */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.thank-you-container {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thank-you-image {
+  max-width: 200px; /* Adjust the image size as needed */
+  margin-bottom: 20px;
+}
+
+.thank-you-message {
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 18px;
+  margin: 10px 0;
+}

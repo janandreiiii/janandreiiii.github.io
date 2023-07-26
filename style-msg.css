@@ -1,0 +1,15 @@
+/* Styles from the previous example */
+
+/* Style for the close button */
+.close-button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.close-button:hover {
+    color: #ccc;
+}
