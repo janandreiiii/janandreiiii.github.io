@@ -4,59 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link href='https://tools-static.wmflabs.org/fontcdn/css?family=Poppins' rel='stylesheet' type='text/css'>
+    <link href='https://tools-static.wmflabs.org/fontcdn/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <title>Home</title>
 </head>
 <body>
     <header>
-        <!-- Add a navigation bar (optional) -->
-        <nav>
-            <ul>
-                <li><a href="project.html">Projects</a></li>
-                <li><a href="index.html">Home</a></li>
-            </ul>
+        <!-- Add a navigation bar -->
+        <nav class="topnav">
+            <a href="index.html" class="active">Home</a>
+            <!-- Add a dropdown with Projects and its sub-items -->
+            <div class="dropdown">
+                <div class="dropbtn">Projects</div>
+                <div class="dropdown-content">
+                    <a href="project.html">No-Fingerprint</a>
+                    <a href="adblock.html">Adblock Test</a>
+                </div>
+            </div>
         </nav>
     </header>
 
     <main>
         <!-- Content for the Home page -->
         <section id="home">
-            <h1>Welcome</h1>
-            <p>> Hi! I'm Jan Andrei</p>
-            <p>> An IT Student from the Philippines</p>
-            <p>> Hobbyist; I Love to fork</p>
-            <p><strong>Github:</strong> <a href="https://github.com/janandreiiii" target="_blank">@janandreiiii</a></p>
-            <p><strong>Codeberg:</strong> <a href="https://codeberg.org/janandreiiii" target="_blank">@janandreiiii</a></p> 
+            <h1>Jan Andrei Fernando &#128104;&#8205;&#128187;</h1>
+            <p>Privacy Enthusiast </p>
+            <p>> Welcome to my Website! I am an IT Student from the Philippines this is my little website to house my interests in.</p>
+            <p>> I am interested in Privacy and Computers</p>
+            <p><strong>Github:</strong> <a1 href="https://github.com/janandreiiii" target="_blank">@janandreiiii</a1></p>
+            <p><strong>Codeberg:</strong> <a1 href="https://codeberg.org/janandreiiii" target="_blank">@janandreiiii</a1></p> 
         </section>
     </main>
-
-    <footer>
-        <!-- Add your footer content here -->
-        <div class="center">
-            <img src="https://codeberg.org/janandreiiii/pages/raw/branch/main/Official%20Logo.png" alt="Official Logo" width="96" height="96">
-        </div>
-        <p>&copy; 2023 Jan Andrei & The Panthera Privacy. All rights reserved.</p>
-    </footer>
-
-    <!-- Floating button -->
-    <div class="floating-button" id="floatingBtn">
-        <span>Subscribe</span>
-    </div>
-
-    <!-- Hidden modal -->
-    <div class="modal" id="emailModal">
-        <div class="modal-content">
-            <span class="close-btn" id="closeBtn">&times;</span>
-            <h2>Subscribe to our newsletter</h2>
-            <p>No Spam, Just Love.</p>
-            <form action="thankyou.html">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <input type="submit" value="Submit">
-            </form>
-        </div>
-    </div>
-
-    <script src="script.js"></script>
 </body>
 </html>
