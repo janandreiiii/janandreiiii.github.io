@@ -47,7 +47,7 @@
     "location": "Pune India",
     "unit": "cel"
   },
-  "settingsIcon": false,
+  "settingsIcon": true,
   "style": {
     "backgroundColor": "#212121",
     "messageColor": "#fff",
