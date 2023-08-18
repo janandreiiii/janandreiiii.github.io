@@ -1,23 +1,19 @@
-![_traichu](favicon-32x32.png?raw=true)
+<div align="center">
+<h1>Minimal Startpage</h1>
+<h4>Just another minimal startpage for browsers.</h4>
+</div>
 
-> **_trai´chu,** _n_. A simple, semantic start page built with HTML, CSS, and a mouse-sized bit of JavaScript.
- 
-**_traichu's** markup is [valid](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftressley.github.io%2F_traichu%2Findex.html) and aims to adhere to HTML semantics. [Traditional Japanese](https://www.nipponcolors.com), [WCAG 2.0](https://www.w3.org/TR/WCAG20/) compliant colors make up the color palette. The monospace font is ol' [Fira Code](https://fonts.google.com/specimen/Fira+Code) loaded via [Google Fonts](https://fonts.google.com). Icons are [inline SVGs](https://css-tricks.com/pretty-good-svg-icon-system/), [DuckDuckGo's API](https://icons.duckduckgo.com/ip3/duckduckgo.com.ico) delivers the favicons, and [OpenWeather's API](https://openweathermap.org) provides the weather forecast and icons. Vanilla JavaScript and CSS handle all interactivity.
+<img src=".github/startpage.gif">
 
-[DuckDuckGo](https://duckduckgo.com) is the default search engine because privacy is important 'round here.
-
-⚠️ **You will need to generate your own OpenWeather API key!**
-1. [Register for an OpenWeather account](https://home.openweathermap.org/users/sign_up) (OpenWeather will generate a default API key)
-2. Sign in and navigate to Username > API keys and copy the key
-3. Paste the key into [`line 10`](https://github.com/Tressley/_traichu/blob/3f2d695a4677f2a99c2c112fd11d01d71d6a05e9/js/main.js#L10) of `main.js`
-
-**How to update your city**
-1. Find your city using [OpenWeather's search](https://openweathermap.org/find)
-2. Copy the city ID from the end of the URL
-> `https://openweathermap.org/city/1850147` 🠆 `1850147`
-3. Paste the city ID into [`line 26`](https://github.com/Tressley/_traichu/blob/3f2d695a4677f2a99c2c112fd11d01d71d6a05e9/js/main.js#L26) of `main.js`
+<div align="center">
+<br>
+<img src="https://img.shields.io/badge/Maintained%3F-Yes-blueviolet?style=for-the-badge">
+<a href="LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-pink.svg?style=for-the-badge"></a> <a href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-lightblue.svg?style=for-the-badge"></a> <img src="https://img.shields.io/badge/supports-chrome-lightgreen.svg?style=for-the-badge"> <img src="https://img.shields.io/badge/supports-firefox-orange.svg?style=for-the-badge"><a href="https://www.paypal.me/deepjyoti30" target="_blank"><img alt="undefined" src="https://img.shields.io/badge/paypal-deepjyoti30-blue?style=for-the-badge&logo=paypal"></a>
+<a href="https://ko-fi.com/deepjyoti30" target="_blank"><img alt="undefined" src="https://img.shields.io/badge/KoFi-deepjyoti30-red?style=for-the-badge&logo=ko-fi"></a> 
 
 
-![_traichu's dark mode](https://i.imgur.com/ncQcCGy.jpg)
-
-![_traichu's light mode](https://i.imgur.com/Gst8wfz.jpg)
+<br>
+<h3>
+<a href="https://github.com/deepjyoti30/startpage/wiki/Installation">Installation</a> | <a href="https://github.com/deepjyoti30/startpage/wiki/Configuration">Configuration</a> | <a href="https://github.com/deepjyoti30/startpage/wiki">Wiki</a>
+</h3>
+</div>
