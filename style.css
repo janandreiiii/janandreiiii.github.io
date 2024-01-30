@@ -1,0 +1,185 @@
+/* Media query for screens smaller than 600 pixels wide */
+@media only screen and (max-width: 600px) {
+    main {
+      padding: 10px;
+    }
+  }
+  
+  /* Media query for screens between 601px and 900px wide */
+  @media only screen and (min-width: 601px) and (max-width: 900px) {
+    main {
+      padding: 15px;
+    }
+  }
+  
+  /* Media query for screens larger than 900 pixels wide */
+  @media only screen and (min-width: 901px) {
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+  }
+body{
+font-family: 'Inter', sans-serif;
+margin: auto;
+padding: auto;
+background-color: #F8F0E5;
+}
+
+header{
+color: #DAC0A3;
+text-align: center;
+background-color: #0F2C59;
+padding: 20px;
+}
+
+h1.name{
+    font-family: 'Poppins', sans-serif;
+}
+p1.subtitle{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: light;
+}
+p.intro{
+    font-family: 'Red Hat Mono', monospace;
+    color:white;
+}
+section.intro{
+
+    background-color: black;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 20px;
+    line-height: 1cm;
+    animation: fadeIn 1s ease-in-out forwards; /* Apply fade-in animation */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+h1.intro{
+    text-align: center;
+}
+
+p1.intro {
+    margin-top: 0;
+    overflow: hidden; /* Prevent the cursor from overlapping the text */
+    border-right: 2px solid #0078D4; /* Windows Blue color */
+    white-space: nowrap; /* Keep the text on a single line */
+    animation: typing 2s steps(22), blink-caret 0.5s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: white; /* Windows Blue color */
+    }
+}
+.intro ul {
+    list-style: none;
+    padding: 0;
+}
+
+.intro li {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.intro li:before {
+    content: "> ";
+    position: absolute;
+    left: -20px;
+    color:white;
+}
+
+/*portfolio card*/
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    width: 30%; /* Initial width for desktop, adjust as needed */
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+.card img {
+    width: 50%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .card {
+        width: 100%; /* Full width for mobile */
+    }
+}
+footer{
+    background-color: #0F2C59;
+    text-align: center;
+    padding: 15px;
+    color: wheat;
+}
+img.footer{
+    width:0.3in;
+    height: 0.3in;
+}
+section.projects{
+    margin-left: 10px;
+}
+a.nav{
+    text-decoration: None;
+    color:black;
+
+}
+
+.back-to-home {
+    position: fixed;
+    top: 50%;
+    right: 20px; /* Adjust the distance from the right side */
+    transform: translateY(-50%);
+    background-color: #4CAF50; /* Green background color */
+    border: none;
+    border-radius: 50%; /* Make it a circle */
+    width: 40px; /* Set width to make it a circle */
+    height: 40px; /* Set height to make it a circle */
+    background-image: url('Home.svg'); /* Replace with the path to your house icon image */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    line-height: 40px; /* Center text vertically */
+}
+
+.back-to-home:hover {
+    background-color: #0F2C59; /* Darker green on hover */
+}
